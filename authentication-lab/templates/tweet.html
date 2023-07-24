@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for x,y in tweet123.items():%}
+    <h1> title: {{tweet123[x]['title']}} </h1>
+    <h1> tweet: {{tweet123[x]['text']}} </h1>
+    <br>
+    {% endfor%}
+</body>
+</html>
